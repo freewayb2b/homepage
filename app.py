@@ -4,12 +4,10 @@ import pandas as pd
 
 
 
-# link = 'https://1drv.ms/x/s!Ap1U9e4-CgPGhcZ2MjrIMmz9riJXZQ'
-link2 = 'https://1drv.ms/x/s!Ap1U9e4-CgPGhcZ2MjrIMmz9riJXZQ?view=1'
+link = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQAP3t48A4W5Afz-GJ7Jk7-uu7k7zVwIBB5CvuT_OIgooLFg9I0S9nmWYCkq3SwBQ/pub?gid=436659431&single=true&output=csv'
 
-# df = rq.get(url=link2)
 
-df = pd.read_excel(link2)
+df = pd.read_excel(link)
 
 st.table(df)
 
