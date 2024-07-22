@@ -11,3 +11,5 @@ df = rq.get(url=link)
 
 df = pd.DataFrame(df)
 
+st.table(df)
+
