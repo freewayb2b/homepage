@@ -4,7 +4,7 @@ import pandas as pd
 
 
 
-link = "https://1drv.ms/x/s!Ap1U9e4-CgPGhcZ2MjrIMmz9riJXZQ?e=ZUqqMA"
+link = "https://1drv.ms/x/s!Ap1U9e4-CgPGhcZ2MjrIMmz9riJXZQ?e=ZUqqMA=view"
 
 
 df = rq.get(url=link)
