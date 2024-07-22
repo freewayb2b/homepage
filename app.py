@@ -5,6 +5,6 @@ import pandas as pd
 #--------------------------------------------------------------------
 #page-config
 
-st.set_page_config(title = "App teste")
+st.set_pageconfig(title = "App teste")
 
 
