@@ -11,4 +11,4 @@ link = "https://freewayb2b.shoppub.net/"
 
 tb = rq.get(url=link)
 
-
+st.table(tb)
