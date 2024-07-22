@@ -9,7 +9,7 @@ link = 'https://onedrive.live.com/read.aspx?resid=C6030A3EEEF5549D!90998&cid=c60
 
 # df = rq.get(url=link,data='id="Sheet0_0_0_1"')
 
-df = pd.DataFrame(df)
+df = pd.read_excel(link)
 
 st.table(df)
 
