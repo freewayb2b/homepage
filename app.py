@@ -10,7 +10,9 @@ st.set_page_config(layout="wide",page_title="app teste")
 
 link = "https://freewayb2b.shoppub.net/"
 
-tb = BeautifulSoup(link.text, 'html.parser')
+response = requests.get(link)
+
+tb = BeautifulSoup(response.text, 'html.parser')
 
 
 
