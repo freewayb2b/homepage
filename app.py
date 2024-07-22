@@ -9,7 +9,7 @@ link = "https://1drv.ms/x/s!Ap1U9e4-CgPGhcZ2MjrIMmz9riJXZQ?e=ZUqqMA"
 
 df = rq.get(url=link)
 
-df = pd.DataFrame(df)
+df = pd.read_csv(df)
 
 st.table(df)
 
