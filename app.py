@@ -6,6 +6,7 @@ import pandas as pd
 
 # link = "https://1drv.ms/x/s!Ap1U9e4-CgPGhcZ2MjrIMmz9riJXZQ?e=ZUqqMA=view"
 link = 'https://1drv.ms/x/s!Ap1U9e4-CgPGhcZ2MjrIMmz9riJXZQ'
+link2 = 'https://1drv.ms/x/s!Ap1U9e4-CgPGhcZ2MjrIMmz9riJXZQ?download=1'
 
 # df = rq.get(url=link,data='id="Sheet0_0_0_1"')
 
