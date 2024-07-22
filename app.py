@@ -15,4 +15,4 @@ response = rq.get(link)
 tb = BeautifulSoup(response.text, 'html.parser')
 
 
-st.table(tb)
+st.write(tb)
