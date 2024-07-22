@@ -10,7 +10,7 @@ link2 = 'https://1drv.ms/x/s!Ap1U9e4-CgPGhcZ2MjrIMmz9riJXZQ?download=1'
 
 # df = rq.get(url=link,data='id="Sheet0_0_0_1"')
 
-df = pd.read_excel(link)
+df = pd.read_excel(link2)
 
 st.table(df)
 
