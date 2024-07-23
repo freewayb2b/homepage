@@ -7,3 +7,9 @@ body{
     background-color: black;
     color: white;
 }
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
