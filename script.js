@@ -1,3 +1,3 @@
-const a = "teste 1";
+const a = "oi, eu sou o primeiro teste";
 
 console.log(a);
