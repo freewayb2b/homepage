@@ -1,14 +1,15 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-}
-
 @page {
-    size: 1920px 9289px; /* largura x altura */
-    margin: 20px; /* margens em pixels */
+    size: 1920px 9289px; /* Define o tamanho da página para corresponder ao tamanho da imagem */
+    margin: 0;
 }
 
-body{
-    background-image: url(./Landing\ page.png);
+body {
+    margin: 0;
+    padding: 0;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
