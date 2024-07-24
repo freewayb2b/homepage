@@ -4,8 +4,8 @@
 }
 
 body{
-    background-color: #F2F2F2;
-    color: #000000;;
+    background-image: url(./Landing\ page.png);
+    background-size: cover;
 }
 
 .items{
