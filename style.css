@@ -1,15 +1,33 @@
 @page {
     size: 1920px 9289px;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     margin: 0;
     padding: 0;
+    background-color: #212121;
 }
 
-img {
-    display: block;
-    width: 100%;
-    height: auto;
+
+img{
+    width: 35px;
+    height: 40px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    background-color: black;
+    border-radius: 6px;
+    padding: 1vh;
+    align-items: center;
+
+}
+
+.freeway{
+    display: flex;
+    color: #565655;
 }
