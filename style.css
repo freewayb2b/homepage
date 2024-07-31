@@ -4,30 +4,39 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #212121;
+
+
+@media screen and (min-width: 320px) {
+    body {
+        background-color: white;
+    }
+
+    .imagemarea{
+        display: flex;
+        justify-content: space-around;
+        width: 200;
+    }
+
+    .paragrafo{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        color: #2C2C2C;
+    }
+
+    .video{
+        display: flex;
+        justify-content: space-around;
+        padding: 3vh;
+        margin: auto;
+    }
+
+    .freeway {
+        display: flex;
+        justify-content: space-around;
+        font-size: 18pt;
+        color: #2C2C2C;
+        align-items: center;
+    }
 }
 
-
-img{
-    width: 35px;
-    height: 40px;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    margin: 5px;
-    background-color: black;
-    border-radius: 6px;
-    padding: 1vh;
-    align-items: center;
-
-}
-
-.freeway{
-    display: flex;
-    color: #565655;
-}
