@@ -5,11 +5,28 @@
 }
 
 
-
 @media screen and (min-width: 320px) {
     body {
         background-color: #212121;
     }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3vh;
+        margin-top: 2vh;
+    }
+
+    .menu{
+        width: 20px;
+        height: 20px;
+    }
+
+    .perfil{
+        width: 21px;
+        height: 21px;
+    }
+
 
     .home1{
         display: flex;
@@ -31,15 +48,16 @@
         display: flex;
         justify-content: space-around;
         position: relative;
-        padding-top: 1vh;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
     }
-
+/* 
     .video{
         display: flex;
         justify-content: space-around;
         padding: 3vh;
         margin: auto;
-    }
+    } */
 
     .carousel {
     position: relative;
