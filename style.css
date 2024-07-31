@@ -46,10 +46,11 @@
 
     .texto1{
         display: flex;
-        justify-content: space-around;
+        text-align: center;
         position: relative;
         padding-bottom: 2vh;
         padding-top: 2vh;
+        color: white;
     }
 /* 
     .video{
