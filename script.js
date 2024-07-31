@@ -1,8 +1,8 @@
 let currentIndex = 0;
 
 function showSlide(index) {
-    const slides = document.querySelector('.slides');
-    const totalSlides = document.querySelectorAll('.slides img').length;
+    const slides = document.querySelector('.carousel-inner');
+    const totalSlides = document.querySelectorAll('.carousel-item').length;
 
     if (index >= totalSlides) {
         currentIndex = 0;
