@@ -1,3 +1,11 @@
+
+:root{
+    --cor-bg: #ffffff;
+    --cor-texto: #212121;
+    --fonte-tamanho: 2.5vh;
+}
+
+
 @page {
     size: 1920px 9289px;
     margin: 0;
@@ -5,15 +13,16 @@
 
 @font-face{
     font-family: 'spartan';
-    src: url('./fonts/LeagueSpartan-Regular.ttf') format('ttf');
+    src: url('./fonts/LeagueSpartan-Bold.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 
+
 @media screen and (min-width: 320px) {
     body {
         font-family: "Spartan", sans-serif;
-        background-color: #212121;
+        background-color: var(--cor-bg);
     }
 
     header{
@@ -26,7 +35,7 @@
 
     .freeway{
         display: flex;
-        color: white;
+        color: var(--cor-texto);
         font-weight: bold;
         font-size: larger;
     }
@@ -42,15 +51,6 @@
     }
 
 
-    .home1{
-        display: flex;
-        justify-content: space-around;
-        width: 200;
-        position: a;
-        z-index: 1;
-    }
-
-
     .home2{
         display: flex;
         justify-content: space-around;
@@ -60,11 +60,13 @@
 
     .texto1{
         display: flex;
-        text-align: center;
+        text-align: justify;
         position: relative;
         padding-bottom: 2vh;
         padding-top: 2vh;
-        color: white;
+        padding: 1vh;
+        color: var(--cor-texto);
+        line-height: 20pt;
     }
 /* 
     .video{
@@ -105,7 +107,7 @@
         left: 50%;
         transform: translateX(-50%);
         background: rgba(0, 0, 0, 0.5);
-        color: white;
+        color: var(--cor-bg);
         padding: 10px;
         border-radius: 5px;
     }
@@ -115,7 +117,7 @@
         top: 50%;
         transform: translateY(-50%);
         background-color: rgba(0, 0, 0, 0.5);
-        color: white;
+        color: var(--cor-bg);
         border: none;
         padding: 10px;
         cursor: pointer;
@@ -129,4 +131,23 @@
     .carousel-control.next {
         right: 10px;
     }
+
+    .home3{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        padding-top: -20%;
+    }
+
+    .texto2{
+        display: flex;
+        text-align: justify;
+        position: relative;
+        padding: 1vh;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+        color: var(--cor-texto);
+        line-height: 20pt;
+    }
+
 }
