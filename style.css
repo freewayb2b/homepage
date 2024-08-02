@@ -37,7 +37,7 @@
         display: flex;
         color: var(--cor-texto);
         font-weight: bold;
-        font-size: larger;
+        font-size: 20pt;
     }
 
     .menu{
@@ -107,7 +107,7 @@
         left: 50%;
         transform: translateX(-50%);
         background: rgba(0, 0, 0, 0.5);
-        color: var(--cor-bg);
+        color:var(--cor-bg);
         padding: 10px;
         border-radius: 5px;
     }
@@ -117,7 +117,7 @@
         top: 50%;
         transform: translateY(-50%);
         background-color: rgba(0, 0, 0, 0.5);
-        color: var(--cor-bg);
+        color: var(--cor-bg );
         border: none;
         padding: 10px;
         cursor: pointer;
